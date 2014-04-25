@@ -1,7 +1,9 @@
 /* My Styles */
 
 /*Gloabal*/
-
+body {
+  background: url(..//img/fibers.png), #f2f4f4;
+}
 
 /* Typography */
 
@@ -35,4 +37,27 @@ header .mel {
     position: relative;
     top: -60px;
     left: 5px;
+}
+
+/* Links */
+
+a, .panel.callout a:not(.button) {
+	color: #33E5cf;
+}
+
+a:hover {
+	color: #57c1ad;
+	font-size: 1.1em;
+}
+
+/* Button */
+
+button.alert, .button.alert {
+	 background-image: -webkit-linear-gradient(top, #FF778D 15%, #ED5B6C 100%);
+}
+
+button.alert:hover, .button.alert:hover {
+	 background-color: #ed5b6d;
+	 border-color: #ed5b6d;
+
 }
