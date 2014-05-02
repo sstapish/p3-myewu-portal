@@ -16,7 +16,7 @@ h2, h3, h4, h5 {
     font-family: 'Buenard', serif;
 }
 
-p, a {
+p, a, span {
     font-family: 'Gentium Book Basic', serif;
 }
 
@@ -27,9 +27,8 @@ ul > li {
 .top-bar .name h1 {
     color: white;
 }
-.events {
-    margin-top: 50px;
-}
+
+
 
 /* Layout*/
 
@@ -39,15 +38,19 @@ header .mel {
     left: 5px;
 }
 
+.tabs-content p {
+    
+}
+
 /* Links */
 
 a, .panel.callout a:not(.button) {
 	color: #33E5cf;
 }
 
-a:hover {
-	color: #57c1ad;
-	font-size: 1.1em;
+a:hover, .panel.callout a:not(.button):hover {
+    color: #57c1ad;
+    font-size: 1.05em;
 }
 
 /* Button */
